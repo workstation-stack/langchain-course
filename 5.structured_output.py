@@ -1,3 +1,11 @@
+# Module 5: Structured Output
+# This module introduces structured output using Pydantic models, which ensures that the agent's responses follow a specific schema.
+# Structured output is important because it makes the agent's responses predictable and easier to process programmatically.
+# Here, we define a schema (`AgentResponse`) that includes an answer and a list of sources, ensuring the output is well-structured.
+# The module demonstrates how to use LangChain's `create_agent` function with a `return_format` parameter to enforce this schema.
+# Key Difference: This module uses the newer `create_agent` function, which simplifies the integration of structured output.
+# For example, it can search for job postings and return the results in a well-defined format with URLs.
+
 from typing import List
 
 from pydantic import BaseModel, Field

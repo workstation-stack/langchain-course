@@ -1,3 +1,8 @@
+# Module 1: Introduction to LangChain
+# This module introduces the basics of LangChain by demonstrating how to use it for a simple summarization task.
+# It uses a predefined text about Elon Musk and generates a summary along with two interesting facts about him.
+# The module showcases the use of a `PromptTemplate` to define the task and a language model (LLM) to process the input.
+# This is the foundation for understanding how LangChain connects prompts and models to create useful outputs.
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI

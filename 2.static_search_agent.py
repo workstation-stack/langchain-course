@@ -1,3 +1,10 @@
+# Module 2: Static Search Agent
+# This module builds on the basics from Module 1 and introduces the concept of tools in LangChain.
+# Tools are external functions or APIs that the agent can call to perform specific tasks.
+# Here, we define a static search tool that returns a predefined response for a given query.
+# This module demonstrates how to integrate this tool with a language model to create a simple agent.
+# For example, it answers weather-related queries with a hardcoded response.
+
 from dotenv import load_dotenv
 
 load_dotenv()

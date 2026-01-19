@@ -1,3 +1,10 @@
+# Module 3: Web Search Agent
+# This module replaces the static search tool from Module 2 with a dynamic web search tool using Tavily.
+# Tavily is an external API that allows real-time web searches, making the agent more dynamic and useful.
+# The module demonstrates how to create a custom tool that interacts with the Tavily API to fetch real-time search results.
+# This highlights the flexibility of LangChain in integrating external APIs and tools.
+# For example, it can search for job postings or weather information dynamically.
+
 from dotenv import load_dotenv
 
 load_dotenv()
